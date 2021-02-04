@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+li,
+button,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+* {
+  outline: none;
+}
+
+body {
+  min-width: 1200px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1410px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-top {
+  background: #2f3c4c;
+  height: 90px;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  font-size: 18px;
+  line-height: 30.6px;
+  color: #ffffff;
+  margin-right: 44px;
+}
+
+.header-count {
+  font-size: 24px;
+  line-height: 30.6px;
+  width: 700;
+  color: #ffffff;
+}
+
+.count-item {
+  margin-left: 30px;
+}
+.header-bottom {
+  display: flex;
+  align-items: center;
+  background: #f6f8fc;
+  height: 130px;
+}
+.become-teacher {
+  text-decoration: none;
+  color: #168ec4;
+  font-size: 18px;
+  line-height: 22px;
+  weight: 700;
+  margin-right: 50.19px;
+}
+
+.logo {
+  margin-top: 10.29px;
+  margin-left: 27.7px;
+  margin-bottom: 26.02px;
+  margin-right: 56.08px;
+}
+
+.catalog-button {
+  width: 207.58px;
+  background: #168ec4;
+  border: none;
+  color: #ffffff;
+  margin-right: 20px;
+
+}
+.header-button {
+  border-radius: 5px;
+  height: 70px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button-registration {
+  width: 177px;
+  background: #168ec4;
+  border: none;
+  color: #ffffff;
+}
+
+.button-login {
+  width: 99px;
+  border: 2px solid #168ec4;
+  background: #f6f8fc;
+
+  color: #168ec4;
+  margin-right: 20px;
+}
+
+.search {
+width: 1027.58px;
+height: 70px;
+background: #FFFFFF;
+border: 2px solid #EEF0FF;
+border-radius: 5px;
+
+display: flex;
+align-items: center;
+margin-right: 49.99px;
+}
+
+.search img {
+  margin: 25.1px 16.58px 26.5px 25.43px;
+
+}
+
+.input-search {
+  width: 700px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #62606F;
+  border: none;
+
+  
+}
